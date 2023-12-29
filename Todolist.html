@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Todolist.css">
+  <title>To-Do List</title>
+</head>
+<body>
+
+  <div class="container">
+    <h2>To-Do List</h2>
+    <div>
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+    <button onclick="saveTasks()">Save</button>
+    <button onclick="deleteTasks()">Delete All</button>
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script src="Todolist.js"></script>
+</body>
+</html>
